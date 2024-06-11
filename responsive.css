@@ -1,0 +1,138 @@
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 55%;
+	}
+	.header {
+		padding: 7rem 3rem;
+	}
+	.logo {
+		width: 18vh;
+	}	
+	.animationSeriesContainer {
+		width: 60%;
+		height: 9rem;
+		padding: 0.5rem;
+	}
+	.animationSeriesContainer .poster {
+		height: 7.5rem;
+	}
+}
+@media screen and (max-width: 991px) {
+	.reverse > .storySection  {
+	  display: flex;
+	  flex-direction: column-reverse;
+	}
+	.storySection {
+		grid-template-columns: 1fr;
+		align-items: center;
+		text-align: center;
+	}
+
+	.kidImage {
+		width: 75%;
+	}
+
+	.programImage {
+		width: 75%;
+	}
+
+	.animationSeriesContainer {
+		width: 45%;
+		left: 50%;
+		bottom: 10%;
+	}
+}
+
+@media (max-width: 600px) { 
+	html {
+		font-size: 45%;
+	}
+
+	.logo {
+		width: 12vh;
+	}	
+
+	.storySection h1 {
+		font-size: 4rem;
+		margin-bottom: 2rem;
+	}
+
+	.storySection h3 {
+		font-size: 2rem;
+	}
+
+	.tvContainer {
+		width: 38rem;
+		height: 29rem;
+	}
+
+	.tvAnime {
+		left: 5.2rem;
+		width: 28rem;
+		height: 27.7rem;
+	}
+
+	.deviceContainer {
+		width: 42rem;
+		height: 31rem;
+	}
+
+	.deviceAnime {
+		left: 8rem;
+		width: 26rem;
+		height: 20.3rem;
+	}
+
+	.animationSeriesContainer {
+		width: 50%;
+		height: 6rem;
+	}
+	.animationSeriesContainer .poster {
+		height: 4.5rem;
+	}
+
+	.animationSeriesContainer .downloadGif {
+		height: 3rem;
+	}
+	
+	.animationSeriesContainer .tvSeries {
+		padding-left: 1.2rem;
+	}
+
+	.animationSeriesContainer .tvSeries .titleSerie {
+		font-size: 1rem;
+	}
+	
+	.animationSeriesContainer .tvSeries .downloadSerie {
+		font-size: 1rem;
+	}
+
+	.questionTitle {
+		font-size: 4rem;
+	}
+
+	.listQuestion {
+		font-size: 2rem;
+	}
+
+	.btnQuestion{
+		width: 70%;
+	}
+
+	.eventClick.active .responseQuestion {
+		width: 70%;
+	}
+
+	.linkContainer {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.footerTitle {
+		font-size: 1.4rem;
+	}
+
+	.footerLink {
+		font-size: 1.2rem;
+	}
+}
+
